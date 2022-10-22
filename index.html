@@ -11,7 +11,8 @@
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- ETIQUETA CDN PARA VINCULAR CON BOOTSTRAP -->
-    https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
     <!-- ENLACE QUE VINCULA LOS ESTILOS DEL ARCHIVO CSS -->
     <link rel="stylesheet" href="style/estilos.css">
 </head>
@@ -19,31 +20,60 @@
     <!-- VISUAL - SE SECTORIZA CON ETIQUETAS SEMANTICAS -->
     <!-- ENCABEZADO -->
     <header>
+        <div>
         <img class="logo" src="images/logo_warzone.jpeg" alt="logo de war zone" height="160" width="160">
         <img class="star" src="images/star.jpeg" alt="logo de estrella" height="50" width="50">
-        
-
         <h1 class="subrayado">WAR ZONE PROGRAM</h1>
         <h2>CROSSFIT TRAINERS GROUP</h2>
-        <!-- LISTAS -->
-        <nav>
-        <ul type= "circle">
-            <li><a href="index.html">INICIO</a></li>
-            <li><a href="pages/quienesSomos.html">QUIENES SOMOS</a></li>
-            <li><a href="pages/programas.html">PROGRAMAS</a></li>
-            <li><a href="pages/preguntasFrecuentes.html">PREGUNTAS FERCUENTES</a></li>
-            <li><a href="pages/contacto.html">CONTACTO</a></li>
-        </ul>
-        </nav>
-        <div></div>
+        </div>
+        <!-- NAV BAR CON BOOTSTRAP -->
+        <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/quienesSomos.html">NOSOTROS</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="pages/programas.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  PROGRAMAS
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Scaled</a></li>
+                  <li><a class="dropdown-item" href="#">RX</a></li>
+                  <li><a class="dropdown-item" href="#">Elite</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/contacto.html">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/contacto.html">CONTACTO</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+              <button class="btn btn-outline-warning" type="submit">SEARCH</button>
+            </form>
+          </div>
+        </div>
+      </nav>
     </header>
     <!-- PARTE PRINCIPAL -->
     <main>
         <h4>PROGRAMACIÓN PARA ATLETAS DE CROSSFIT</h4>
         <h3 class="subrayado">ENTRENÁ CON NOSOTROS</h3>
+        <section>
         <img class="imagen" src="images/arena.jpg" alt="Imagen de un atleta haciendo hand stand walk" height="430" width="320">
         <img class="imagen" src="images/hsw.jpg" alt="Imagen de un atleta haciendo hand stand walk" height="430" width="320">
         <img class="imagen"src="images/mar.jpg" alt="Imagen de un atleta haciendo hand stand walk" height="430" width="320">
+        </section>
         <h4>"Nunca sabrás de que estas hecho si nunca lo intentas"</h4>
         <p>El CrossFit es un entrenamiento de alta intensidad y como tal, podríamos pensar que ayuda a quemar grasas así como a ganar masa muscular y quemar calorías en gran cantidad. Lo que dice la ciencia al respecto, según un estudio publicado en The Journal of Strength and Conditioning Research, es lo siguiente:</p>
 
@@ -85,6 +115,7 @@
     </footer>
     <a href="#" class="subir">
         <i class="fa-regular fa-up flecha"></i>
-    </a> 
+    </a>
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script> 
 </body>
 </html>

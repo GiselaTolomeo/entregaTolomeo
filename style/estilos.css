@@ -15,6 +15,7 @@ h1{
     color:rgb(242, 33, 33);
     font-family: 'Lato', sans-serif;
     text-align: center;
+    font-weight: bold;
     position: absolute;
     top: 25px;
     left: 370px;
@@ -76,25 +77,19 @@ li{
     font-size: large;
     text-align: center;
     padding: 10px;
-    margin-left: 55px;
-    margin-right: 55px;
+    margin-left: 45px;
+    margin-right: 45px;
    
 }
 li a:hover{
-    color:rgb(30, 94, 244);
+    color:rgb(11, 79, 236);
 }
 
 a{
     text-decoration: none;
     color: black;
 }
-div{
-    height: 5px;
-    width: 100%;
-    background-color: rgb(242, 33, 33);
-    border-top: 3px solid rgb(30, 94, 244);
-    margin-top: 5px;
-}
+
 p{
     color:aliceblue;
     font-family: 'Lato', sans-serif;
@@ -104,6 +99,8 @@ p{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+
 .imagen{
     margin-left: 90px;
     margin-right: 50px;
