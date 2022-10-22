@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 html{
     scroll-behavior: smooth;
@@ -64,6 +65,8 @@ h5{
 body{
     background-image: url(../images/hexagonos.jpeg);
     background-size: 600%;
+    background: cover;
+    background-attachment: fixed;
 }
 ul{
     background-color: rgb(254, 254, 254);
@@ -105,7 +108,13 @@ p{
     margin-left: 90px;
     margin-right: 50px;
     margin-bottom: 90px;
+    transition: 0.5s;
+    border: 5px solid aliceblue;
 }
+.imagen:hover{
+    transform: scale(0.9);
+}
+
 .video{
     margin-left: 380px;
     margin-right: 380px;
