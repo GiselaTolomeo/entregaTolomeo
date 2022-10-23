@@ -92,18 +92,21 @@ a{
     text-decoration: none;
     color: black;
 }
+.contact{
+    color: blue;
+    font-weight: bolder;
+    border: 2px solid blue;
+    border-spacing: 5px;
+    margin-left: 670px;
 
+}
 p{
     color:aliceblue;
     font-family: 'Lato', sans-serif;
     font-size: large;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 40px;
+    padding: 2px;
 }
-
-
 .imagen{
     margin-left: 90px;
     margin-right: 50px;
@@ -125,6 +128,11 @@ p{
 .img-box{
     margin-left: 125px;
     margin-right: 125px;
+    transition: 0.5s;
+    border: 5px solid aliceblue;
+}
+.img-box:hover{
+    transform: scale(0.9);
 }
 .star{
 margin-left: 0px;
@@ -137,13 +145,6 @@ margin-bottom:  30px;
     margin-right: 300px;
     margin-bottom: 30px;
     margin-top: 40px;
-}
-.boton{
-    font-weight: 600;
-    margin-left: 630px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    text-align: center;
 }
 footer{
     color: aliceblue;
@@ -160,11 +161,21 @@ footer{
     margin-bottom: 50px;
     margin-left: 235px;
     margin-right: 80px;
+    transition: 0.5s;
+    border: 5px solid aliceblue;
+}
+.barra:hover{
+    transform: scale(0.9);
 }
 .mapa{
     margin-left: 420px;
     margin-top: 40px;
     margin-bottom: 40px;
+    transition: 0.5s;
+    border: 5px solid aliceblue;
+}
+.mapa:hover{
+    transform: scale(0.9);
 }
 ol{
     text-align: center;
@@ -176,19 +187,39 @@ ol{
 .woman{
 margin-left: 445px;
 margin-bottom: 50px;
+transition: 0.5s;
+border: 5px solid aliceblue;
+}
+.woman:hover{
+    transform: scale(0.9);
 }
 .duo{
     margin-left: 430px;
+    transition: 0.5s;
+    border: 5px solid aliceblue;
+}
+.duo:hover{
+    transform: scale(0.9);
 }
 .verMas{
     margin-left: 1200px;
 }
 .carrera{
     margin-left: 290px;
+    transition: 0.5s;
+    border: 5px solid aliceblue;
+}
+.carrera:hover{
+    transform: scale(0.9);
 }
 .rodrigo{
     margin-left: 450px;
     margin-bottom: 40px;
+    transition: 0.5s;
+    border: 5px solid aliceblue;
+}
+.rodrigo:hover{
+    transform: scale(0.9);
 }
 .subir{
     height: 30px;
@@ -201,4 +232,19 @@ margin-bottom: 50px;
     position: fixed;
     right: 20px;
     bottom: 20px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 25% 25% 50%;
+    width: fit-content;  
+    margin: 25px;   
+}
+.grid div{
+    padding: 5px;
+    text-align: justify;
+    border: 2px solid blue;
+    margin: 10px;
+}
+.grid div:hover{
+    transform: scale(0.9);
 }
