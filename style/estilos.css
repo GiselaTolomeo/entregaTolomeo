@@ -18,7 +18,7 @@ h1{
     text-align: center;
     font-weight: bold;
     position: absolute;
-    top: 25px;
+    top: 15px;
     left: 370px;
     margin-bottom: 10px;
     text-shadow: 0px 0px 1px rgb(189, 181, 181);
@@ -31,8 +31,6 @@ h2{
     position: absolute;
     top: 100px;
     left: 510px;
-    margin-top: 5px;
-    margin-bottom: 5px;
     text-shadow: 1px 1px 1px rgb(189, 181, 181);
 }
 h3{
@@ -41,7 +39,6 @@ h3{
     font-size: 150%;
     text-decoration: underline;
     text-align: center;
-    margin-left: 30px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -75,7 +72,7 @@ ul{
     text-align: center;
     margin-top: 1px;
 }
-li{
+li {
     display: inline-block;
     font-size: large;
     text-align: center;
@@ -89,7 +86,7 @@ li a:hover{
 }
 
 a{
-    text-decoration: none;
+    text-decoration: none;  
     color: black;
 }
 .contact{
@@ -103,10 +100,29 @@ a{
 p{
     color:aliceblue;
     font-family: 'Lato', sans-serif;
-    font-size: large;
-    margin: 40px;
+    font-size: x-large;
+    font-weight: 400;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    margin-bottom: 30px;
     padding: 2px;
 }
+.list{
+    background-image: none;
+    color: aliceblue;
+    font-family: 'Lato', sans-serif;
+    font-size: x-large;
+    font-weight: 400;
+}
+.list li{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
 .imagen{
     margin-left: 90px;
     margin-right: 50px;
@@ -159,8 +175,7 @@ footer{
 .barra{
     margin-top: 20px;
     margin-bottom: 50px;
-    margin-left: 235px;
-    margin-right: 80px;
+    margin-left: 350px;
     transition: 0.5s;
     border: 5px solid aliceblue;
 }
@@ -182,7 +197,7 @@ ol{
 }
 .form{
     text-align: center;
-    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .woman{
 margin-left: 445px;
@@ -205,7 +220,7 @@ border: 5px solid aliceblue;
     margin-left: 1200px;
 }
 .carrera{
-    margin-left: 290px;
+    margin-left: 360px;
     transition: 0.5s;
     border: 5px solid aliceblue;
 }
@@ -213,7 +228,7 @@ border: 5px solid aliceblue;
     transform: scale(0.9);
 }
 .rodrigo{
-    margin-left: 450px;
+    margin-left: 440px;
     margin-bottom: 40px;
     transition: 0.5s;
     border: 5px solid aliceblue;
@@ -236,15 +251,22 @@ border: 5px solid aliceblue;
 .grid{
     display: grid;
     grid-template-columns: 25% 25% 50%;
-    width: fit-content;  
-    margin: 25px;   
+    padding: 5px;
+    margin: 30px;
 }
 .grid div{
     padding: 5px;
     text-align: justify;
     border: 2px solid blue;
     margin: 10px;
+    text-size-adjust: 10px;
 }
 .grid div:hover{
     transform: scale(0.9);
+}
+.categorias p{
+margin: 10px;
+}
+.footer{
+    font-size: large;
 }
