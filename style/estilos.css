@@ -79,7 +79,6 @@ li {
     padding: 10px;
     margin-left: 45px;
     margin-right: 45px;
-   
 }
 li a:hover{
     color:rgb(11, 79, 236);
@@ -92,8 +91,9 @@ a{
     color: blue;
     font-weight: bolder;
     border: 2px solid blue;
-    border-spacing: 5px;
-    margin-left: 670px;
+    border-radius: 10%;
+    padding: 20px;
+    margin-left: 635px;
 }
 p{
     color:aliceblue;
@@ -168,11 +168,16 @@ footer{
 }
 .redes{
     background-color: aliceblue;
+    border: 2px solid blue;
+}
+.redes:hover{
+    transform: scale(0.8);
+    color:blue
 }
 .barra{
     margin-top: 20px;
     margin-bottom: 50px;
-    margin-left: 350px;
+    margin-left: 320px;
     transition: 0.5s;
     border: 5px solid aliceblue;
 }
@@ -197,7 +202,7 @@ ol{
     margin-bottom: 20px;
 }
 .woman{
-margin-left: 445px;
+margin-left: 430px;
 margin-bottom: 50px;
 transition: 0.5s;
 border: 5px solid aliceblue;
@@ -206,7 +211,7 @@ border: 5px solid aliceblue;
     transform: scale(0.9);
 }
 .duo{
-    margin-left: 430px;
+    margin-left: 400px;
     transition: 0.5s;
     border: 5px solid aliceblue;
 }
@@ -217,7 +222,7 @@ border: 5px solid aliceblue;
     margin-left: 1200px;
 }
 .carrera{
-    margin-left: 360px;
+    margin-left: 315px;
     transition: 0.5s;
     border: 5px solid aliceblue;
 }
@@ -233,18 +238,6 @@ border: 5px solid aliceblue;
 .rodrigo:hover{
     transform: scale(0.9);
 }
-.subir{
-    height: 30px;
-    width: 30px;
-    color: yellow;
-    text-align: center;
-    font-size: 10px;
-    border: 5px solid yellow;
-    border-radius: 10%;
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-}
 .grid{
     display: grid;
     grid-template-columns: 25% 25% 50%;
@@ -252,9 +245,10 @@ border: 5px solid aliceblue;
     margin: 30px;
 }
 .grid div{
-    padding: 5px;
+    padding: 10px;
     text-align: justify;
     border: 2px solid blue;
+    border-radius: 10%;
     margin: 10px;
     text-size-adjust: 10px;
 }
